@@ -1,0 +1,22 @@
+Title: Customer Churn Prediction Using Random Forest
+
+Introduction:
+The goal of this project is to predict customer churn using a machine learning model, helping businesses understand which customers are likely to leave and take proactive actions.
+
+Data Overview:
+The dataset includes customer information such as tenure, contract type, monthly charges, and whether the customer has churned. The dataset was preprocessed to convert categorical variables and ensure it is ready for machine learning.
+
+Model Selection and Training:
+Random Forest was chosen for its robustness and ability to handle a mix of feature types. The data was split into training and testing sets, and the model was trained using the training set.
+
+Model Evaluation:
+The model achieved an accuracy of 85%. The confusion matrix and classification report indicate good performance on both churned and non-churned customers.
+
+Feature Importance:
+The top features contributing to churn prediction were `tenure`, `contract`, and `MonthlyCharges`.
+
+Conclusion:
+Customers with month-to-month contracts and higher monthly charges are more likely to churn. Businesses should focus on retaining these customers through personalized offers.
+
+Future Work:
+Further model tuning and testing with additional datasets could improve performance. Other models like Gradient Boosting could also be explored.
